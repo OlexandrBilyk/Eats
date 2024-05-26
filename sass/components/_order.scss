@@ -31,6 +31,7 @@
   }
 }
 .order-download {
+    display: flex;
     margin: 0 auto;
     width: 300px;
   &__btn {
@@ -38,6 +39,7 @@
     padding: 18px 31px;
     background-color: transparent;
 
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 175%;
@@ -47,8 +49,10 @@
   &__btn--playstore {
     background-color: getColor("project-orange");
     margin-right: 16px;
+    width: 142px;
   }
   &__btn--appstore {
     border: 1px solid #fff;
+    width: 175px;
   }
 }

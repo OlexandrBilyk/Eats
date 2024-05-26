@@ -17,6 +17,10 @@ button {
   padding: 0 15px;
 }
 
+body {
+  font-family: "Montserrat", serif;
+}
+
 .header {
   padding: 41px 0;
 }
@@ -114,6 +118,7 @@ button {
   padding: 55px 0;
 }
 .how__title {
+  font-family: "Poppins", serif;
   font-weight: 600;
   font-size: 44px;
   line-height: 82%;
@@ -191,6 +196,7 @@ button {
 }
 
 .order-download {
+  display: flex;
   margin: 0 auto;
   width: 300px;
 }
@@ -207,9 +213,11 @@ button {
 .order-download__btn--playstore {
   background-color: #fa4a0c;
   margin-right: 16px;
+  width: 142px;
 }
 .order-download__btn--appstore {
   border: 1px solid #fff;
+  width: 175px;
 }
 
 .footer {
@@ -221,6 +229,7 @@ button {
   justify-content: space-between;
 }
 .footer__span {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 150%;
