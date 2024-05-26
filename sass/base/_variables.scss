@@ -1,0 +1,7 @@
+$Colors:(
+    'project-orange': #fa4a0c,
+);
+@function getColor($key) {
+    @return map-get($Colors, $key);
+  }
+  

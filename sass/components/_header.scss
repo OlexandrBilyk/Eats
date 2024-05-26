@@ -1,0 +1,29 @@
+.header {
+  padding: 41px 0;
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 467px;
+  }
+}
+.logo {
+  width: 150px;
+  height: 65px;
+}
+.nav-list {
+  display: flex;
+  gap: 116px;
+
+  &__link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #252b42;
+    transition: color 250ms ease;
+    &:hover {
+      color: getColor("project-orange");
+    }
+  }
+}

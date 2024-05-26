@@ -1,0 +1,61 @@
+.hero {
+  padding: 80px 0 160px;
+  background-image: url("../images/herobg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 619px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__app {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #f6f6f6;
+    display: block;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 138%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+  }
+  &__order {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 158%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #f6f6f6;
+  }
+  &__order-container {
+    width: 539px;
+    margin-top: 53px;
+    display: flex;
+    gap: 67px;
+  }
+  &__btn {
+    background-color: transparent;
+    padding: 15px 81px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0em;
+    color: #fff;
+  }
+  &__btn--delivery {
+    background-color: getColor("project-orange");
+    box-shadow: 0 10px 30px 0 rgba(183, 50, 39, 0.2);
+  }
+  &__btn--menu {
+    border: 1px solid #fff;
+  }
+}
